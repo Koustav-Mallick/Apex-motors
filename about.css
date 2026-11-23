@@ -1,0 +1,415 @@
+.about-hero-section {
+    position: relative;
+    min-height: 560px;
+    background-image: url("images/image1-abt.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.about-hero-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 560px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 8%;
+}
+
+.about-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 620px;
+}
+
+.about-hero-content h1 {
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 0.98;
+    letter-spacing: 1px;
+}
+
+.about-hero-content h1 span {
+    color: #e5242a;
+}
+
+.about-hero-content > p:not(.section-label) {
+    max-width: 480px;
+    color: #d0d0d0;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.about-story-section {
+    padding: 100px 8%;
+    background-color: #111111;
+}
+
+.about-story-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.about-story-image {
+    width: 48%;
+}
+
+.about-story-image img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.about-story-image-label {
+    padding: 12px 5px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.about-story-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 52%;
+}
+
+.about-story-content h2 {
+    font-size: 52px;
+    line-height: 1.02;
+    letter-spacing: 1px;
+}
+
+.about-story-content h2 span {
+    color: #e5242a;
+}
+
+.about-story-content > p:not(.section-label) {
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.about-belief-section {
+    padding: 95px 8%;
+    background-color: #0b0b0b;
+}
+
+.about-belief-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.about-belief-container > .section-heading {
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.about-belief-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.about-belief-card {
+    padding: 32px 26px;
+    border: 1px solid #292929;
+    background-color: #101010;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.about-belief-card:hover {
+    border-color: #e5242a;
+    transform: translateY(-5px);
+}
+
+.about-belief-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(229, 36, 42, 0.55);
+    border-radius: 50%;
+    color: #e5242a;
+    font-size: 20px;
+}
+
+.about-belief-card h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.about-belief-card p {
+    margin-top: 12px;
+    color: #aaaaaa;
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.about-vision-section {
+    padding: 100px 8%;
+    background-color: #111111;
+}
+
+.about-vision-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.about-vision-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    width: 52%;
+}
+
+.about-vision-content h2 {
+    font-size: 48px;
+    line-height: 1.05;
+    letter-spacing: 1px;
+}
+
+.about-vision-content h2 span {
+    color: #e5242a;
+}
+
+.about-vision-content > p:not(.section-label) {
+    max-width: 520px;
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.about-vision-image {
+    width: 48%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.about-vision-image img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.about-vision-image:hover img {
+    transform: scale(1.04);
+}
+
+.about-journey-section {
+    position: relative;
+    min-height: 420px;
+    background-image: url("images/image4-abt.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-journey-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 420px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 70px 8%;
+}
+
+.about-journey-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 680px;
+}
+
+.about-journey-content h2 {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 0.98;
+}
+
+.about-journey-content h2 span {
+    color: #e5242a;
+}
+
+.about-journey-content > p:not(.section-label) {
+    max-width: 450px;
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-story-container,
+    .about-vision-container {
+        gap: 40px;
+    }
+
+    .about-hero-content h1 {
+        font-size: 64px;
+    }
+
+    .about-story-content h2 {
+        font-size: 44px;
+    }
+
+    .about-belief-card {
+        padding: 26px 20px;
+    }
+
+    .about-vision-content h2 {
+        font-size: 42px;
+    }
+
+    .about-journey-content h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-hero-section,
+    .about-hero-container {
+        min-height: 520px;
+    }
+
+    .about-hero-section {
+        background-position: 60% center;
+    }
+
+    .about-hero-container {
+        padding: 70px 6%;
+    }
+
+    .about-hero-content h1 {
+        font-size: 54px;
+    }
+
+    .about-story-section,
+    .about-belief-section,
+    .about-vision-section {
+        padding: 65px 6%;
+    }
+
+    .about-story-container,
+    .about-vision-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 35px;
+    }
+
+    .about-story-image,
+    .about-story-content,
+    .about-vision-content,
+    .about-vision-image {
+        width: 100%;
+    }
+
+    .about-story-image img {
+        height: 350px;
+    }
+
+    .about-belief-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .about-vision-image img {
+        height: 350px;
+    }
+
+    .about-journey-container {
+        padding: 60px 6%;
+    }
+
+    .about-journey-content h2 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-hero-section,
+    .about-hero-container {
+        min-height: 470px;
+    }
+
+    .about-hero-container {
+        padding: 55px 6%;
+    }
+
+    .about-hero-content {
+        gap: 18px;
+    }
+
+    .about-hero-content h1 {
+        font-size: 42px;
+    }
+
+    .about-hero-content > p:not(.section-label) {
+        font-size: 13px;
+    }
+
+    .about-story-section,
+    .about-belief-section,
+    .about-vision-section {
+        padding: 50px 6%;
+    }
+
+    .about-story-image img {
+        height: 260px;
+    }
+
+    .about-story-content h2,
+    .about-vision-content h2 {
+        font-size: 36px;
+    }
+
+    .about-belief-container > .section-heading h2 {
+        font-size: 32px;
+    }
+
+    .about-vision-image img {
+        height: 260px;
+    }
+
+    .about-journey-section,
+    .about-journey-container {
+        min-height: 370px;
+    }
+
+    .about-journey-container {
+        padding: 50px 6%;
+    }
+
+    .about-journey-content h2 {
+        font-size: 38px;
+    }
+
+    .about-journey-content > p:not(.section-label) {
+        font-size: 13px;
+    }
+
+    .about-journey-content .btn {
+        text-align: center;
+    }
+}

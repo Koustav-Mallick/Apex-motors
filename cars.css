@@ -1,0 +1,463 @@
+.cars-hero-section {
+    position: relative;
+    min-height: 570px;
+    background-image: url("images/image10-cars.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.cars-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(4, 4, 4, 0.94) 0%, rgba(4, 4, 4, 0.72) 42%, rgba(4, 4, 4, 0.12) 100%);
+}
+
+.cars-hero-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 570px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 8%;
+}
+
+.cars-hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+    max-width: 650px;
+}
+
+.cars-hero-content h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 0.98;
+    letter-spacing: 1px;
+}
+
+.cars-hero-content h1 span {
+    color: #e5242a;
+}
+
+.cars-hero-content > p:not(.section-label) {
+    max-width: 470px;
+    color: #d0d0d0;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.cars-intro-section {
+    padding: 95px 8%;
+    background-color: #111111;
+}
+
+.cars-intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 35px;
+    max-width: 1240px;
+    margin: 0 auto 38px;
+}
+
+.cars-intro-container .section-heading h2 {
+    font-size: 42px;
+}
+
+.cars-intro-container .section-heading h2 span {
+    color: #e5242a;
+}
+
+.cars-intro-description {
+    max-width: 360px;
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.cars-category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.cars-category-card {
+    min-width: 0;
+    border: 1px solid #292929;
+    background-color: #0b0b0b;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.cars-category-card:hover {
+    border-color: #e5242a;
+    transform: translateY(-5px);
+}
+
+.cars-category-image {
+    height: 250px;
+    overflow: hidden;
+    background-color: #222222;
+}
+
+.cars-category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.cars-category-card:hover .cars-category-image img {
+    transform: scale(1.05);
+}
+
+.cars-category-details {
+    padding: 22px;
+}
+
+.cars-category-details span {
+    color: #e5242a;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.cars-category-details h3 {
+    margin-top: 8px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.car-collection-section {
+    padding: 100px 8%;
+    background-color: #0b0b0b;
+}
+
+.car-collection-container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.car-collection-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.car-collection-head .section-heading h2 {
+    margin-top: 10px;
+    font-size: 44px;
+    line-height: 1.05;
+}
+
+.car-collection-head .section-heading h2 span {
+    color: #e5242a;
+}
+
+.collection-count {
+    color: #aaaaaa;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.collection-count span {
+    color: #e5242a;
+}
+
+.car-collection-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.collection-car-card {
+    min-width: 0;
+    border: 1px solid #292929;
+    background-color: #101010;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.collection-car-card:hover {
+    border-color: #555555;
+    transform: translateY(-5px);
+}
+
+.collection-car-image {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+    background-color: #222222;
+}
+
+.collection-car-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.45s ease;
+}
+
+.collection-car-card:hover .collection-car-image img {
+    transform: scale(1.05);
+}
+
+.collection-car-label {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    padding: 6px 9px;
+    background-color: rgba(0, 0, 0, 0.78);
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.collection-car-details {
+    padding: 20px;
+}
+
+.collection-car-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.collection-car-title h3 {
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+
+.collection-car-title span {
+    color: #e5242a;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.collection-car-details > p {
+    margin-top: 5px;
+    color: #aaaaaa;
+    font-size: 12px;
+}
+
+.collection-car-specs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 17px;
+    padding: 13px 0;
+    border-top: 1px solid #2a2a2a;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.collection-car-specs span {
+    color: #cccccc;
+    font-size: 10px;
+}
+
+.collection-car-specs i {
+    margin-right: 4px;
+    color: #e5242a;
+}
+
+.collection-car-details .text-link {
+    margin-top: 16px;
+    font-size: 10px;
+}
+
+.collection-note {
+    margin-top: 22px;
+    color: #777777;
+    font-size: 11px;
+}
+
+.cars-journey-section {
+    position: relative;
+    min-height: 420px;
+    background-image: url("images/image11-cars.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cars-journey-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.58) 48%, rgba(0, 0, 0, 0.08) 100%);
+}
+
+.cars-journey-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 420px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 70px 8%;
+}
+
+.cars-journey-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 650px;
+}
+
+.cars-journey-content h2 {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 0.98;
+}
+
+.cars-journey-content h2 span {
+    color: #e5242a;
+}
+
+.cars-journey-content > p:not(.section-label) {
+    max-width: 440px;
+    color: #cccccc;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cars-hero-content h1 {
+        font-size: 62px;
+    }
+
+    .cars-category-image {
+        height: 210px;
+    }
+
+    .car-collection-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .collection-car-image {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cars-hero-section,
+    .cars-hero-container {
+        min-height: 520px;
+    }
+
+    .cars-hero-section {
+        background-position: 60% center;
+    }
+
+    .cars-hero-container {
+        padding: 65px 6%;
+    }
+
+    .cars-hero-content h1 {
+        font-size: 52px;
+    }
+
+    .cars-intro-section,
+    .car-collection-section {
+        padding: 65px 6%;
+    }
+
+    .cars-intro-container {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .cars-category-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .cars-category-image {
+        height: 280px;
+    }
+
+    .car-collection-head {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .collection-car-image {
+        height: 230px;
+    }
+
+    .cars-journey-container {
+        padding: 60px 6%;
+    }
+
+    .cars-journey-content h2 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cars-hero-section,
+    .cars-hero-container {
+        min-height: 470px;
+    }
+
+    .cars-hero-content {
+        gap: 18px;
+    }
+
+    .cars-hero-content h1 {
+        font-size: 40px;
+    }
+
+    .cars-hero-content > p:not(.section-label) {
+        font-size: 13px;
+    }
+
+    .cars-intro-section,
+    .car-collection-section {
+        padding: 50px 6%;
+    }
+
+    .cars-intro-container .section-heading h2,
+    .car-collection-head .section-heading h2 {
+        font-size: 32px;
+    }
+
+    .cars-category-image {
+        height: 220px;
+    }
+
+    .car-collection-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .collection-car-image {
+        height: 250px;
+    }
+
+    .cars-journey-section,
+    .cars-journey-container {
+        min-height: 370px;
+    }
+
+    .cars-journey-container {
+        padding: 50px 6%;
+    }
+
+    .cars-journey-content h2 {
+        font-size: 38px;
+    }
+
+    .cars-journey-content > p:not(.section-label) {
+        font-size: 13px;
+    }
+}
